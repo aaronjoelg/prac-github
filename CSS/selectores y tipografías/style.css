@@ -1,0 +1,51 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/** EJ: Seleccionar un elemento dentro de otro*/
+section h1 {
+    text-align: center;
+    border: 4px solid rgb(55, 75, 141);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/** EJ: Seleccionar dos elementos juntos*/
+p, span {
+    color: rgb(236, 158, 24);
+    font-weight: 600;
+}
+
+/** EJ: Seleccionar elemento específico*/
+ul {
+    font-size: large;
+    font-weight: 700;
+    border: 4px solid rgb(55, 75, 141);
+    border-radius: 5px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+/** EJ: Seleccionar elemento específico mediante un ID*/
+#p_1 {
+    color: rgb(255, 8, 0);
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+/** EJ: Seleccionar elemento específico mediante una CLASE*/
+.p_4 {
+    color: rgb(0, 98, 255);
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+}

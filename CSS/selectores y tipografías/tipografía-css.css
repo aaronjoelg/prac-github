@@ -1,0 +1,17 @@
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: brown;
+    text-align: center;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#int {
+    font-style: italic;
+}
